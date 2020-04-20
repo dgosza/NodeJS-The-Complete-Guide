@@ -1,0 +1,19 @@
+passar uma mernsagem{"free":"5188MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5177MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5179MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5175MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5175MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5175MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5184MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5182MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5186MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5181MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5185MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5183MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5183MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5183MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5184MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5176MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5180MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5180MB","total":"12162MB","usagePercents":"42%"}
+{"free":"5176MB","total":"12162MB","usagePercents":"42%"}
