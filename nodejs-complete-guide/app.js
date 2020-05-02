@@ -10,17 +10,19 @@ const pageNotFound = require('./controllers/404')
 //inicialize express
 const app = express();
 
-
+//set template engine
 app.set('view engine', 'ejs')
 app.set('views', 'views')
 
+//using some definitions in our application
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')))
 
+//using routes
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
-
 app.use(pageNotFound.pageNotFound)
 
+//listen to a port
 app.listen(3000)
 
