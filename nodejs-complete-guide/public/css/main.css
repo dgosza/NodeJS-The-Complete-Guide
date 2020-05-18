@@ -29,6 +29,7 @@ main{
 .main-header__item{
     margin: 0 1rem;
     padding: 0;
+    margin-top: 15px;
 }
 .main-header__item a{
     text-decoration: none;
