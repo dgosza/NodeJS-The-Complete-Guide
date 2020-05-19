@@ -24,5 +24,5 @@ app.use(shopRoutes);
 app.use(pageNotFound.pageNotFound)
 
 //listen to a port
-app.listen(3000)
+app.listen(3323)
 
