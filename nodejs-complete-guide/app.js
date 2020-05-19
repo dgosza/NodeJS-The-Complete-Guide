@@ -1,28 +1,24 @@
+const path = require('path');
+
 const express = require('express');
-const path = require('path')
 const bodyParser = require('body-parser');
 
-//routes
-const adminRoutes = require('./routes/admin');
-const shopRoutes = require('./routes/shop');
-const pageNotFound = require('./controllers/404')
+const errorController = require('./controllers/error');
 
-//inicialize express
 const app = express();
 
-//set template engine
-app.set('view engine', 'ejs')
-app.set('views', 'views')
+app.set('view engine', 'ejs');
+app.set('views', 'views');
 
-//using some definitions in our application
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
+
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')));
 
-//using routes
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
-app.use(pageNotFound.pageNotFound)
 
-//listen to a port
-app.listen(3323)
+app.use(errorController.get404);
 
+app.listen(3000);
