@@ -13,7 +13,7 @@
   "dependencies": {
     "ejs": "^3.0.2",
     "email-templates": "^7.0.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hogan": "^1.0.2",
     "hogan.js": "^3.0.2",
     "nodemailer": "^6.4.6",
